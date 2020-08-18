@@ -1,0 +1,39 @@
+.navbar {
+	background-color: #0006;
+	opacity: 0.9;
+	
+}
+
+.navbar .navbar-nav {
+	opacity: 2;
+}
+
+body, html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("img/thisis.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 70px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 70px;
+}
+
+.footer  {
+	margin-top: 80px;
+}
